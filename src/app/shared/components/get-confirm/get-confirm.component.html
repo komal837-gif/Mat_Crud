@@ -1,0 +1,5 @@
+<h2>{{msg || 'Are You Sure, You Want to Remove this Post??'}}</h2>
+<div class="d-flex justify-content-between align-items-center">
+    <button (click)="onClose(false)" mat-button color="gray">Cancel</button>
+    <button (click)="onClose(true)" mat-raised-button color="warn">Delete</button>
+</div>  
